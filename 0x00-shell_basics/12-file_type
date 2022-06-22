@@ -1,2 +1,2 @@
 #!/bin/bash
-ls *.c /tmp/iamafile
+ls *.c /tmp/iamafile.c
