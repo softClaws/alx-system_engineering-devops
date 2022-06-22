@@ -1,2 +1,4 @@
 #!/bin/bash
-~/alx-sysytem_engineering-devops/0x00-shell_basics/0-current_working_directory
+path='readlink -f "${BASH_SOURCE:-$0}"'
+DIR_PATH='dirname $path'
+echo $DIR_PATH
